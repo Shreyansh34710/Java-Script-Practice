@@ -1,0 +1,30 @@
+// {
+//     "restore1":{
+//         "id":1,
+//         "is open":true,
+//         "item":["item1","item2"]
+//     },
+//     "restore2":{
+//         "id":2,
+//         "is open":false,
+//         "item":["item1","item2"]
+//     }
+// }
+
+
+const user ={
+    name: "Irfan",
+    age :25
+};
+
+
+let data =JSON.stringify(user). ///object ->jsonString
+console.log(data1)
+
+
+
+
+let data2 = JSON.parse(jsonString)
+console,lof("Obj: " ,data2)
+
+const jsonString = '{"name": "Irfan, "age" : 25}';
